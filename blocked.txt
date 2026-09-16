@@ -4,9 +4,7 @@
 ! Version: 1.0.14.44
 ! Homepage: https://github.com/nickspaargaren/no-google
 ! Last modified: 2024-11-27T12:37:38.234Z
-!
 ! Compiled by @adguard/hostlist-compiler v1.0.29
-!
 ||*-android-context-data.googleapis.com^
 ||*-chromecontentsuggestions-pa.googleapis.com^
 ||adgoogle.net^
@@ -1670,17 +1668,41 @@
 ||z-m-gateway.facebook.com^$important
 ||ups.analytics.yahoo.com
 ||ad.mrtnsvr.com
-||ups.analytics.yahoo.com
 ||user-sync.fwmrm.net
 ||match.prod.bidr.io
 ||ssum-sec.casalemedia.com
 ||wix.com
-||*parastorage*
-||*adtelligent*
-||*cookielaw*
-||*ziffstatic*
-||*pubmatic*
 ||*.facebook.*^$important
 
 #more blockers
 
+
+
+# === OnePlus / ColorOS / OPlus / HeyTap / NearMe / OPPO / RealMe ===
+# OEM system telemetry & cloud used by the stubborn protected apps
+# (AI Scribe com.oplus.aiunit, lockassistant, HeyTap htms,
+# NearMe instant-platform, gesture, ThemeStore) - added 16-Sep-2026
+||oplus.com^
+||oplus.net^
+||openapi.oplus.com^
+||cloud.oplus.com^
+||bksin.oplus.com^
+||ota.oplus.com^
+||push.oplus.com^
+||security.oplus.com^
+||dian.oplus.com^
+||heytap.com^
+||heytapdl.com^
+||heytapmobi.com^
+||openapi.heytap.com^
+||cloud.heytap.com^
+||htms.heytap.com^
+||coloros.com^
+||nearme.com^
+||open.nearme.com^
+||nearme.com.cn^
+||oppo.com^
+||oppomobile.com^
+||push.oppomobile.com^
+||dl.oppomobile.com^
+||realme.com^
