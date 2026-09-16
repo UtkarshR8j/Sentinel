@@ -34,6 +34,9 @@
 @@||android.clients.google.com^$important
 @@||android.clients.google.com^$client='node0'
 @@||android.apis.google.com^$important
+@@||google.com^$important   # main search - keeps google.com working while ||google.*^ blocks all other google.*
+@@||www.google.com^$important
+
 @@||nearbysharing-pa.googleapis.com^$important
 
 @@||w3-reporting.reddit.com^$important
