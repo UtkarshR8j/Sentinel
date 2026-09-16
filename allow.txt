@@ -37,3 +37,7 @@
 @@||nearbysharing-pa.googleapis.com^$important
 
 @@||w3-reporting.reddit.com^$important
+# Brave Search - allow search endpoints (blocks ||brave.com^$important but keep search working)
+@@||search.brave.com^$important
+@@||imgs.search.brave.com^$important
+
