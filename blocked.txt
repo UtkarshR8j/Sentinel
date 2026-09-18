@@ -1218,3 +1218,4 @@
 ||allawntech.com^
 ||heytapdownload.com^
 ||h2os.com^
+||allawnos.cn^
