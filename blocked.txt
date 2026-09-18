@@ -1209,3 +1209,12 @@
 ||realme.com^
 ! page.link (Google/Firebase shortlink phishing) - collapsed from 499 individual entries
 ||page.link^
+
+# === OnePlus / OPPO OTA update CDN (allawnos family) - added 18-Sep-2026 ===
+# The OTA update-offer check rides the allawnos CDN, which the OEM section
+# above does not cover: component-ota-in / ota-recruit-in .allawnos.com
+# were resolving live on the phone. These gate OS auto-update downloads.
+||allawnos.com^
+||allawntech.com^
+||heytapdownload.com^
+||h2os.com^
